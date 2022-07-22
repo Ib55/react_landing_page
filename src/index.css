@@ -62,3 +62,9 @@ background-image: linear-gradient(
   margin-top: 300px;
   margin-bottom: 100px;
 }
+.contact-background{
+  background-color: #FEFAF0;
+}
+.list{
+  list-style: none;
+}

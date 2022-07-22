@@ -6,6 +6,8 @@ import Case from '../Components/Case/Case'
 import Protfolio from '../Components/Protfolio/Protfolio'
 import Testimonial from '../Components/Testimonial/Testimonial'
 import Client from '../Components/Client/Client'
+import Contact from '../Components/Contact/Contact'
+import Footer from '../Components/Footer/Footer'
 
 
 const Home = () => {
@@ -22,6 +24,8 @@ const Home = () => {
         <Protfolio title={'PORTFOLIO'} describ={'People Lie Work Don’t'}/>
         <Testimonial title={'TESTIMONIALS'} describ={'What People Says'}/>
         <Client title={'OUR CLIENTS'} describ={'Who Makes Me Proud'}/>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }
